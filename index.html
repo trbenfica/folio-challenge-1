@@ -6,41 +6,31 @@
         <link rel="stylesheet" href="style.css">
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/png" href="./assets/favicon.png"/>
+	    <link rel="icon" type="image/png" href="./assets/favicon.png"/>
     </header>
     <body>
 
         <div id="page_1" class="page_box_container">
             <div id="hero_header_container">
-                <div id="hero_header_item_1">
-                    <img id='header_logo' src="../assets/light-mode.png" alt="logo" />
-                </div>
-                <div id="hero_header_item_2">
-                    <ul class="hero_header_navs">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Jobs</a></li>
-                    </ul>
-                </div>
-                <div id="hero_header_item_3">
-                    <button class="standart_button" id="contact_us_button">Contact Us</button>
-                </div>
-                <div id="hero_header_burguer">
-                    <img src="./assets/burguer_traces.png" alt="trace" id="hero_header_rectangle"/>
-                </div>
+                <img class="left_header_logo" src="../assets/light-mode.png" alt="logo" />
+                <ul class="hero_header_navs">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+                <button id="contact_us_button_pg1" class="standart_button">Contact Us</button>
+                <img class="mobile_burguer_menu" src="./assets/burguer_traces.png" alt="trace"/>
             </div>
 
             <div id="hero_body_container">
                 <div id="left_part_body_container">
                     <h1 id="left_part_body_title">Stand Out<br>from The<br>Crowd.</h1>
-                    <p id="left_part_body_subtitle">Agency is a full-service agency, busy designing and building beautiful digital products, 
-                         brands, and experiences.</p>
-                    <button class="standart_button" id="recent_work_button">Recent Work</button>
+                    <p id="left_part_body_subtitle">Agency is a full-service agency, busy designing and building beautiful digital 
+                        products, brands, and experiences.</p>
+                    <button id="recent_work_button" class="standart_button">Recent Work</button>
                 </div>
-                <div id="right_part_body_container">
-                    <img src="../assets/hero_body_figure.png" style="width: 100%;" alt="computer photo" />
-                </div>
+                <img id="right_part_body_container" src="../assets/hero_body_figure.png" style="width: 100%;" alt="computer photo" />
             </div>
         </div>
         
@@ -75,10 +65,7 @@
                         </div>
                     </div>
 
-                    <div id="r_column_hero_dark_item_2">
-                        <img src="./assets/big_desktop.png" alt="big desktop" id="big-desktop"/>
-
-                    </div>
+                    <img src="./assets/big_desktop.png" alt="big desktop" id="big-desktop"/>
 
                     <div id="r_column_hero_dark_item_3">
                         <div id="a_design_team_container">
@@ -98,8 +85,12 @@
 
 	    <div id='page_3' class='page_box_container'>
             <div class="standart_header">
-                <img class="left_little_logo" src="assets/logo symbol.png" alt="logo-miniatura"/>
+                <div id="left_little_logo_p3">
+                    <img id="only_logo_pg3" class="left_little_logo" src="assets/logo symbol.png" alt="logo-miniatura"/>
+                    <img id="only_folio_word" src="assets/folio_alpha.png" alt="folio part"/>
+                </div>
                 <h1 class="small_letters_header_pg3">02    What We Do</h1>
+                <img id="burguer_menu_pg3" class="mobile_burguer_menu" src="./assets/burguer_traces_alpha.png" alt="trace"/>
                 <h1 id="we_make_designs_pg3">We Make Designs that Lead and Inspire.</h1>
                 <div class="sub_arrows" id="sub_arrows_pg3">
                     <img src="./assets/left_blue_arrow.png" alt="arrow" id="left_arrow_pg3" />
@@ -120,7 +111,7 @@
                     <img class="icon_within" src="./assets/interactive.png" alt="interactive icon" />
                     <h4 class="text_within">Interactive</h4>
                 </div>
-                <div class=icon_container>
+                <div id="icon_container-communicate">
                     <img class="icon_within" src="./assets/communicate.png" alt="communicate icon" />
                     <h4 class="text_within">Communicate</h4>
                 </div>
@@ -128,14 +119,56 @@
         </div>
 
         <div id="page_4" class="page_box_container">
-            <div id="header_page_4">
-                <img class="left_little_logo" src="assets/logo symbol.png" alt="logo-miniatura"/>
-                <h1 class="small_letters_header_pg3">03.    Famous Projects</h1>
-                <h1 id="big_title_pg4">Our Partnerships</h1>
-                <button class="standart_button" id="contact_us_button_pg4">Contact Us</button>
-                <p id="little_text">Agency is a full-service agency, busy designing and building beautiful digital products,
+
+            <div class="standart_header">
+                <div id="left_little_logo_p3">
+                    <img id="only_logo_pg3" class="left_little_logo" src="assets/logo symbol.png" alt="logo-miniatura"/>
+                    <img id="only_folio_word" src="assets/folio_alpha.png" alt="folio part"/>
+                </div>
+                <h1 class="small_letters_header_pg3">03    Famous Projects</h1>
+                <img id="burguer_menu_pg3" class="mobile_burguer_menu" src="./assets/burguer_traces_alpha.png" alt="trace"/>
+                <h1 id="we_make_designs_pg3">Our Partnerships</h1>
+                <div id="button_header_page4">
+                    <button id="contact_us_button_pg4" class="standart_button">Contact Us</button>
+                </div>
+                <p id="subtitle_header_pg4">Agency is a full-service agency, busy designing and building beautiful digital products,
                     brands, and experiences.</p>
             </div>
+
+            <div id="body2_pg4">
+                <div id="flexbox_left">
+                    <div id='flex_element_1' class="flex_element">
+                        <h1 class="flex_item_title">Bento 3D IIlustration</h1>
+                        <img id="flex_item_img_1" src="./assets/bento_3d_illustration.png" alt="Bento 3d illustration"/>
+                        <p class="flex_item_subtitle">Agency is a full-service agency, busy designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                    </div>
+                    <div id='flex_element_2' class="flex_element">
+                        <h1 class="flex_item_title">Sapiens: Man</h1>
+                        <img id="flex_item_img_2" src="./assets/sapiens_man.png" alt="sapiens man"/>
+                        <p class="flex_item_subtitle">Agency is a full-service agency, busy designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                    </div>
+                </div>
+                <div id="flexbox_right">
+                    <div id='flex_element_3' class="flex_element">
+                        <h1 class="flex_item_title">Bento Vol. 2</h1>
+                        <img id="flex_item_img_3" src="./assets/bento_vol_2.png" alt="Bento Vol. 2"/>
+                        <p class="flex_item_subtitle">Agency is a full-service agency, busy designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                    </div>
+                    <div id='flex_element_4' class="flex_element">
+                        <h1 class="flex_item_title">Bento Vol. 3</h1>
+                        <img id="flex_item_img_4" src="./assets/bento_vol_3.png" alt="Bento 3d illustration"/>
+                        <p class="flex_item_subtitle">Agency is a full-service agency, busy designing and building beautiful digital products,
+                            brands, and experiences.</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
 
         </div>
     </body>
