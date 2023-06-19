@@ -838,15 +838,19 @@ a:hover {
 
 /******/
 
-#body1_pg4{
-    display:flex;
-    flex-direction: row;
+#body1_pg4 {
+	display: flex;
+	flex-direction: row;
+	margin-top: -70px;
+	margin-left: 48px;
 }
 
-#left_part_body1_pg4{
-    display:flex;
-    flex-direction: column;
-    gap: 30px;
+#left_part_body1_pg4 {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 127px;
+	z-index: 2;
 }
 
 #body1_pg4 button {
@@ -859,9 +863,11 @@ a:hover {
 	color: white;
 }
 
-#body1_pg4 img{
-    background: #D1ECFD;
-    border-radius: 24px;
+#body1_pg4 img {
+	width: 1178px;
+	margin-left: -475px;
+	margin-top: -100px;
+	z-index: 1;
 }
 
 #body1_pg4 p{
@@ -973,11 +979,9 @@ a:hover {
     }
 
     #body1_pg4 img {
-        background: #FFBA79;
-        border-radius: 24px;
-        width: 347px;
-        margin-left: -8px;
-        padding: 50px 0px;
+        width: 481px;
+        margin-left: -203px;
+        margin-top: 6px;
     }
 
     #body2_pg4{
