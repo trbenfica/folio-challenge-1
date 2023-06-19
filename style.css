@@ -583,6 +583,7 @@ a:hover {
 	padding-right: 43%;
 	border-radius: 0;
     justify-self: center;
+    color: #5468E7;
 }
 
 .icon_container_left {
@@ -595,6 +596,7 @@ a:hover {
 	justify-self: center;
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
+    color: #5468E7;
 }
 
 .icon_container_right {
@@ -607,6 +609,21 @@ a:hover {
 	justify-self: center;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
+    color: #5468E7;
+}
+
+.icon_container:hover {
+    background:#5468E7;
+    color:white;
+}
+
+.icon_container_right:hover {
+    background:#5468E7;
+    color:white;
+}
+.icon_container_left:hover{
+    background:#5468E7;
+    color:white;
 }
 
 .icon_within{
@@ -622,7 +639,7 @@ a:hover {
     line-height: 32px;
     text-align: center;
     letter-spacing: -0.2px;
-    color: #5468E7;
+    color: inherit;
     justify-self: start;
 }
 
