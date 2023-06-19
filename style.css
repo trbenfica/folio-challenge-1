@@ -891,3 +891,177 @@ a:hover {
     }
 }
 
+
+
+
+/*
+#################################
+#                               #   
+#            PAGE 5
+#                               #   
+#################################
+*/
+
+
+
+#page_5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+}
+
+#left_part_page_5{
+    display: grid;
+    grid-template-columns: 20% 80% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "little_logo little_header burguer_menu"
+        ". big_title ."
+        ". article ."
+        ". avaliable_job .";
+    row-gap: 40px;
+    padding-bottom:7%;
+    width: 500px;
+    height: 200px;
+}
+
+#avaliable_jobs_container{
+    grid-area: avaliable_job;
+    display: flex;
+    gap:20px;
+}
+
+#only_logo_pg5{
+    width: 20%;
+}
+
+#right_arrow_pg5 {
+	border-radius: 50px;
+	background: #C897E4;
+	padding: 20px 15px;
+}
+
+#avaliable_jobs_text{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+#big_title_pg5{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 131px;
+    letter-spacing: -1.2px;
+    color: #232340;
+    grid-area:big_title;
+}
+
+#right_arrow_pg5:hover{
+    background: #b566e2;
+}
+
+
+#right_part_page5{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    gap:30px;
+}
+
+.black_main_title{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #232340;
+}
+
+.white_main_title{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.small_title{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+#small_white_right_arrow_1{
+    transform:rotate(180deg);
+    padding-bottom: 30px;
+    width: 30px;
+}
+
+.white_page_5_box_container {
+	padding: 50px 200px 50px 50px;
+	background: #FFFFFF;
+	border-radius: 50px;
+	box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.14);
+    width: 300px;
+}
+
+.black_page_5_box_container{
+    padding: 50px 200px 50px 50px;
+	background: #232340;
+	border-radius: 50px;
+	box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.14);
+    width: 300px;
+}
+
+#small_white_right_arrow_2{
+    transform: rotate(180deg);
+    padding-bottom: 30px;
+}
+
+.white_page_5_box_container:hover{
+    background: #232340;
+}
+
+
+
+
+/*
+#################################
+#                               #   
+#            PAGE 6
+#                               #   
+#################################
+*/
+
+
+
+#grid_page6_container{
+    display: grid;
+    grid-template-areas:
+        "first first"
+        "second_1 second_2";
+}
+
+#first{
+    display:flex;
+    flex-direction: column;
+    grid-area:first;
+}
+
+#only_logo_pg6{
+    width: 15%;
+}
+
+
+
