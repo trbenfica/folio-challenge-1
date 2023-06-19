@@ -1051,17 +1051,157 @@ a:hover {
     grid-template-areas:
         "first first"
         "second_1 second_2";
+    align-items: center;
+    justify-items: center;
 }
 
-#first{
+#blue_board_pg6 {
+	display: flex;
+	flex-direction: column;
+	background-color: #5468E7;
+	border-radius: 50px;
+}
+
+#up_container{
     display:flex;
     flex-direction: column;
-    grid-area:first;
+    gap:30px;
+    align-self: center;
+    align-items: center;
+    padding: 150px;
 }
 
-#only_logo_pg6{
-    width: 15%;
+#only_logo_pg6 {
+	width: 4%;
+	padding: 5px;
+	background: #C897E4;
+	border-radius: 10px;
 }
 
+#say_hello_container{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+#say_hello_text{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100px;
+}
+
+.medium_text_pg6{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    width: 400px;
+}
+
+#bottom_container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+#whats_logo{
+    width: 90px;
+}
+
+#small_arrow_pg6 {
+	width: 30px;
+	transform: rotate(180deg);
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 73%;
+}
+
+#small_arrow_pg6:hover {
+    background-color: #313E93;
+}
+
+#big_title_pg6 {
+	font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 72px;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+	padding: 100px 150px 100px 150px;
+	width: 400px;
+	border: 0.5px solid white;
+}
+
+#whats_invest_container {
+	display: flex;
+	flex-direction: column;
+	padding: 177px 80px;
+	border: 0.5px solid white;
+}
+
+#invest_and_arrow{
+    display:flex;
+}
+
+#baseboard{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#logo_rodape{
+    width: 13%;
+}
+
+#baseboard > p{
+    width: 500px;
+    text-align: center;
+    font-family: 'SF Pro Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	color: #606060;
+    
+}
+
+#rodape_final{
+    display: flex;
+    gap:900px;
+    padding-top: 30px;
+}
+
+#horizontal_line{
+    border-top: 1px ;
+    color: #ADADAD;
+}
+
+#disclaimer{
+    width: 300px;
+}
+
+.follow_us{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ADADAD;
+    display: inline;
+}
 
 
