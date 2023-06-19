@@ -481,7 +481,7 @@ a:hover {
 	height: 15%;
 	padding: 20%;
 	border-radius: 215px;
-    background: #000000;
+    background: #232340;
     box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.242297);
 	
 	margin: 10px;
@@ -1297,5 +1297,116 @@ a:hover {
     color: #ADADAD;
     display: inline;
 }
+
+@media (max-width:1000px) {
+    #baseboard > p {
+        width: 350px;
+        text-align: center;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #606060;
+        margin-left: -30px;
+    }
+
+    #logo_rodape {
+        width: 49%;
+    }
+
+    #horizontal_line{
+        display:none;
+    }
+
+    #rodape_final {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        gap: 0;
+        margin-left: 90px;
+        margin-top: -21px;
+    }
+
+    #blue_board_pg6 {
+        display: flex;
+        flex-direction: column;
+        background-color: #5468E7;
+        border-radius: 32px;
+        margin-left: -6px;
+        width: 341px;
+    }
+
+    .medium_text_pg6{
+        width: 384px;
+    }
+
+    #big_title_pg6{
+        margin-left: -65px;
+    }
+
+    #page_5{
+        grid-template-columns: auto;
+    }
+
+    #left_part_page_5 {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "little_logo burguer_menu"
+            "little_header ."
+            "big_title ."
+            "sub_arrows ."
+            "article .";
+        row-gap: 20px;
+        padding-bottom: 7%;
+    }
+
+    #burguer_menu_pg5 {
+        display: inline;
+        width: 37.3%;
+        align-self: center;
+        margin-left: -102px;
+    }
+
+    #only_logo_pg5 {
+        width: 7%;
+    }
+
+    #right_part_page5 {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 30px;
+        padding-top: 173px;
+        margin-left: -4px;
+    }
+
+    .white_page_5_box_container {
+        padding: 50px 200px 50px 50px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.14);
+        width: 90px;
+        align-self: start;
+        height: 40px;
+        padding-bottom: 163px;
+    }
+
+    .small_title {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #606060;
+        width: 200px;
+    }
+
+    
+}
+
+
 
 
