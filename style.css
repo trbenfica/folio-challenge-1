@@ -1074,7 +1074,10 @@ a:hover {
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -0.5px;
-    color: #232340;
+}
+
+.fill_white{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 
 .white_main_title{
@@ -1108,6 +1111,7 @@ a:hover {
 	border-radius: 50px;
 	box-shadow: 0px 23px 51px rgba(0, 0, 0, 0.14);
     width: 300px;
+    color: inherit;
 }
 
 .black_page_5_box_container{
@@ -1125,6 +1129,7 @@ a:hover {
 
 .white_page_5_box_container:hover{
     background: #232340; 
+    color: white;
 }
 
 
