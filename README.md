@@ -15,3 +15,7 @@ git clone https://github.com/trbenfica/folio-challenge-1.git
 ```
 
 Após, basta entrar no diretório baixado e clicar 2 vezes no arquivo "index.html", de forma que o navegador o abra.
+
+## Dimensões padrões
+
+O projeto foi desenvolvido visando 1920x1080px para Desktop, e 375x812px para mobile.
