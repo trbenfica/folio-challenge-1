@@ -1,5 +1,5 @@
 
-![logo folio](./assets/light-mode.png)
+![logo folio](./assets/folio-white.png)
 
 # folio-challenge-1
 
