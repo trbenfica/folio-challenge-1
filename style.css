@@ -1469,6 +1469,28 @@ a:hover {
         width: 200px;
     }
 
+    #flex_item_img_1 {
+        padding: 100px 0px;
+        border-radius: 50px;
+        background: #FFCE79;
+        margin-right: -81px;
+        margin-left: -14px;
+    }
+
+    #flex_item_img_3 {
+        padding: 100px 0px;
+        border-radius: 50px;
+        background: #E8BEFF;
+        margin-left: -23px;
+    }
+
+    #flex_item_img_4 {
+        padding: 100px 0px;
+        border-radius: 50px;
+        background: #D1ECFD;
+        margin-left: -19px;
+    }
+
     
 }
 
