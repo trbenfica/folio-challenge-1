@@ -16,7 +16,7 @@ body {
     align-items:center;
     padding: 5% 0;
     max-width: 1200px;
-    margin:auto;
+    margin: 0 auto;
 }
 
 .hero_header_container{
@@ -216,7 +216,6 @@ a:hover {
 #hero_dark_grid{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    padding-top: 10%;
 }
 
 #left_column_hero_dark{
@@ -578,45 +577,32 @@ a:hover {
 }
 
 #center_pg3{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:flex;
+    flex-wrap: wrap;
     filter: drop-shadow(3px 3px 29px #D2D1D1);
 }
 
 .icon_container {
-	padding-top: 50%;
-	padding-bottom: 50%;
-	background-color: white;
-	padding-left: 25%;
-	padding-right: 43%;
-	border-radius: 0;
-    justify-self: center;
+    padding: 200px 80px;
+    background-color: white;
     color: #5468E7;
 }
 
 .icon_container_left {
-	padding-top: 50%;
-	padding-bottom: 50%;
-	background-color: white;
-	padding-left: 25%;
-	padding-right: 36%;
-	border-radius: 50px;
-	justify-self: center;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
+    padding: 200px 80px;
+    background-color: white;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     color: #5468E7;
 }
 
 .icon_container_right {
-	padding-top: 50%;
-	padding-bottom: 50%;
-	background-color: white;
-	padding-left: 25%;
-	padding-right: 23%;
-	border-radius: 50px;
-	justify-self: center;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+    padding: 200px 70px;
+    background-color: white;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     color: #5468E7;
 }
 
@@ -662,10 +648,6 @@ a:hover {
 }
 
 #page_3{
-    padding-top: 60px;
-    display:flex;
-    flex-direction: column;
-    gap:30px;
     background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
 }
 
